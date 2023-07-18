@@ -1,0 +1,512 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    color: white;
+    background: linear-gradient(90deg,#00F490,#00BBC9);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1024px;
+    margin: auto;
+}
+
+/*styling for navigation bar*/
+nav{
+    display: flex;
+    max-width: 100%;
+}
+
+nav img{
+    margin-top: 20px;
+}
+
+nav button{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 30px;
+    border: 1px solid white;
+}
+
+nav .logo{
+    flex: 76%;
+}
+
+nav .flavour{
+    flex: 14%;
+    margin-right: 10px;
+    text-align: end;
+}
+
+nav .contact{
+    flex: 10%;
+}
+
+i{
+    color: white;
+}
+
+/*styling for hero*/
+hero .main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main .text{
+    flex: 40%;
+    text-align: start;
+}
+
+.main .image{
+    flex: 60%;
+    margin-right: 0%;
+    max-width: 100%; 
+    text-align: start;
+}
+
+.main button{
+    background: transparent;
+    border:1px solid white ;
+    padding: 10px 30px;
+    border-radius: 3px;
+    margin-left: 90px;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: white;
+}
+
+.main h1{
+    font-size: 45px;
+    font-family: 'Abril Fatface';
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.main p{
+    font-size: 20px;
+    padding-left: 90px;
+}
+
+
+.nest1{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.nest1 .headshot{
+    flex: 20%;
+    border-top-left-radius: 10px;     
+    border-bottom-left-radius: 10px;    
+    margin-right: 10px;
+}
+
+.nest1 img{
+    max-width: 100%;
+}
+
+.nest1 .message{
+    flex: 70%;
+    background-color: white;
+    border-top-right-radius: 10px;   
+    border-bottom-right-radius: 10px; 
+    
+}
+
+.nest1 h1{
+    color: #00F490;
+    font-size: 30px;
+    font-weight: 100;
+    margin-right: 50px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.nest1 img{
+    border-top-left-radius: 10px;     
+    border-bottom-left-radius: 10px;    
+}
+
+.nest1 p{
+    margin-right: 50px;
+    margin-left: 40px;
+    color: black;
+    font-weight: 100;
+}
+
+.nest2{
+    display: flex;
+}
+
+.nest2 h1{
+    margin-top: 160px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.nest2 h2{
+    font-size: 25px;
+    font-weight: 150;
+    text-align: center;
+}
+
+.description{
+    flex: 50%;
+    padding-left: 40px;
+}
+
+.image2{
+    padding-right: 60px;
+    padding-top: 50px;
+    flex: 50%;
+}
+
+/*styling for the cards*/
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  
+  .cards{
+    background-color: white;
+    color: black;
+    margin-right: 30px;
+    box-shadow: 0px 8px 16px 0px   rgba(44, 43, 43, 0.3);
+    flex: 33%;
+    max-width: 320px;
+    
+  }
+
+  .cards img{
+    background-color: #00BBC9;
+    width: 100%;
+    min-height: 180px;
+  }
+  
+  .cards h1{
+    color: #00F490;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 100;
+  }
+  
+  .cards p{
+    margin-left: 20px;
+  }
+  
+  .cards button{
+    padding: 12px 30px;
+    background-color: #00BBC9 ;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+ 
+/*media querry for large screens*/
+@media (max-width: 1199.98px){
+    .container{
+        width: 1024px;
+        margin: auto;
+      
+    }
+    
+
+    nav{
+        display: flex;
+        max-width: 100%;
+    }
+    
+    nav img{
+        margin-top: 20px;
+    }
+    
+    nav button{
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 3px;
+        margin-top: 30px;
+        border: 1px solid white;
+    }
+    
+    nav .logo{
+        flex: 76%;
+    }
+    
+    nav .flavour{
+        flex: 14%;
+        margin-right: 10px;
+        text-align: end;
+    }
+    
+    nav .contact{
+        flex: 10%;
+    }
+    
+    i{
+        color: white;
+    }
+
+    hero .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+/*medium querry for medium*/
+@media (max-width: 991.98px){
+    .container{
+        width: 100%;
+        margin: 0%;
+        padding: 0;
+        }
+    
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    nav .logo{
+        flex: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    nav .flavour{
+        flex: 14%;
+        margin-right: 10px;
+        text-align: end;
+    }
+    
+    nav .contact{
+        flex: 10%;
+        text-align: start;
+    }
+
+    .container{
+        width: 99%;
+        margin: 0%;
+        padding: 0;
+        }
+    
+    .main{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .main .image{
+        text-align: center;
+        flex: 100%;
+        width:100%;
+        min-width: 50px;
+    }
+
+    .main button{
+        margin-left: 0; 
+    }
+    .main .text{
+        text-align: center;
+    }
+    .main h1{
+        padding-left: 0;
+    }
+    
+    .main p{
+        padding-left: 0;
+    }
+
+    .nest1 .headshot{
+        border-radius: 0%;
+        flex: 100%;
+        width: 100%;
+        margin: 0%;
+        padding: 0;
+        background-color: grey;
+    }
+
+    .nest1 .message{
+        border-radius: 0%;
+        flex: 100%;
+        background-color: grey;
+    }
+
+    .nest2{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .nest2 .description{
+        flex: 100%;
+        padding-left: 0%;
+    }
+
+    .nest2 .image2 img{
+        width: 100%;
+        flex: 100%;
+        padding-right: 0;
+        min-width: 50px;
+    }
+
+
+    .nest2 h1{
+        margin-top: 20px;
+    }
+
+    .cards{
+    width: 99%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    min-width: 0px;
+    }
+
+    .card1{
+        flex: 100%;
+        width: 99%;
+
+    }
+
+    .card2{
+    flex: 100%;
+    }
+
+    .card3{
+    flex: 100%;
+    }
+      
+}
+
+/*madia querry for small screen sizes*/
+@media (max-width: 767.98px){
+    .container{
+        width: 99%;
+        margin: 0%;
+        padding: 0;
+        }
+    
+    nav{
+        display: flex;
+        flex: wrap;
+        align-items: center;
+    }
+
+    nav .logo{
+        flex: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav .flavour{
+        flex: 14%;
+        margin-right: 10px;
+    }
+    
+    nav .contact{
+        flex: 10%;
+    }
+
+    .main{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .main .image{
+        text-align: center;
+        flex: 100%;
+        width:100%;
+        min-width: 50px;
+    }
+
+    .main button{
+        margin-left: 0; 
+    }
+    .main .text{
+        text-align: center;
+    }
+    .main h1{
+        padding-left: 0;
+    }
+    
+    .main p{
+        padding-left: 0;
+    }
+
+    .nest1 .headshot{
+        border-radius: 0%;
+        flex: 100%;
+        width: 100%;
+        margin: 0%;
+        padding: 0;
+        background-color: grey;
+    }
+
+    .nest1 .message{
+        border-radius: 0%;
+        flex: 100%;
+        background-color: grey;
+    }
+
+    .nest2{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .nest2 .description{
+        flex: 100%;
+        padding-left: 0%;
+    }
+
+    .nest2 .image2 img{
+        width: 100%;
+        flex: 100%;
+        padding-right: 0;
+        min-width: 50px;
+    }
+
+    
+    .nest2 h1{
+        margin-top: 20px;
+    }
+
+    .cards{
+        max-width: 100%;
+        margin-right: 0%;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+    
+    .card1{
+        flex: 100%;
+        width: 100%;
+    }
+
+    .card2{
+    flex: 100%;
+    }
+
+    .card3{
+    flex: 100%;
+    }
+
+}
